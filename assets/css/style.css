@@ -1,0 +1,45 @@
+
+
+body{
+    background-image: url("https://media.giphy.com/media/7jxPj1HZ4jOko/source.gif");
+}
+
+h1{
+    font-family: 'Notable', sans-serif;
+    color: gold;
+}
+
+h2{
+    font-family: 'Permanent Marker', cursive;
+    color: goldenrod;
+}
+/*Styles for Header*/
+#header{
+    background-image: url("../images/jgp1.png");
+    background-size: 300px 100%;
+    background-repeat: round;
+}
+/*Styles for Left div*/
+#leftdiv{
+    box-sizing: unset;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    overflow: visible;
+}
+/*Styles for Right div*/
+#rightdiv{
+    box-sizing: unset;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    overflow: visible;
+}
+/*Styles for Game div*/
+#game{
+    border: 5px solid white;
+    font-family: 'Anton', sans-serif;
+    background-color: grey;
+    filter: opacity(.8)
+}
+
