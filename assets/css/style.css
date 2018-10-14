@@ -4,12 +4,12 @@ body{
     background-image: url("https://media.giphy.com/media/7jxPj1HZ4jOko/source.gif");
 }
 
-h1{
+.title{
     font-family: 'Notable', sans-serif;
     color: gold;
 }
 
-h2{
+.subtitle{
     font-family: 'Permanent Marker', cursive;
     color: goldenrod;
 }
@@ -40,6 +40,15 @@ h2{
     border: 5px solid white;
     font-family: 'Anton', sans-serif;
     background-color: grey;
-    filter: opacity(.8)
+    filter: opacity(.8);
+    color: black;
+}
+
+.answer{
+    font-size: 25pt;
+    font-family: 'Permanent Marker', cursive;
+    padding: 10px;
+    margin: 5px;
+
 }
 
