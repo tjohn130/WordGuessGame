@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Word Game</title>
     <!--Stylesheet-->
     <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
@@ -14,8 +14,7 @@
     <link href="https://fonts.googleapis.com/css?family=Anton|Notable|Permanent+Marker" rel="stylesheet">
     <!--jQuery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!--Javascript-->
-    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+    
 </head>
 <body>
     <!--Header-->
@@ -39,6 +38,10 @@
         <div class="container text-center">
             <!--Game div-->
             <div id="game"></div>
+            <!--Win count-->
+            <div class="winbox justify-content-center"></div>
+            <!--Reset button-->
+            <button class="answer">reset</button>
         </div>
     </main>
     <!--Right col-->
@@ -49,6 +52,7 @@
             <img src="./assets/images/jgp2.jpg" class="img-fluid rounded"> 
         </div>
     </div>
-    
+    <!--Javascript-->
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
 </body>
 </html>

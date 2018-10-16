@@ -6,12 +6,12 @@ body{
 
 .title{
     font-family: 'Notable', sans-serif;
-    color: gold;
+    color: rgb(255, 236, 131);
 }
 
 .subtitle{
     font-family: 'Permanent Marker', cursive;
-    color: goldenrod;
+    color: rgb(255, 187, 0);
 }
 /*Styles for Header*/
 #header{
@@ -37,11 +37,13 @@ body{
 }
 /*Styles for Game div*/
 #game{
-    border: 5px solid white;
+    border: 5px solid gold;
     font-family: 'Anton', sans-serif;
-    background-color: grey;
+    background-color: gold;
     filter: opacity(.8);
     color: black;
+    font-size: 50pt;
+    font-variant: small-caps;
 }
 
 .answer{
@@ -51,4 +53,12 @@ body{
     margin: 5px;
 
 }
+.winbox{
+    font-size: 25pt;
+    font-family: 'Permanent Marker', cursive;
+    padding: 10px;
+    margin: 5px;
+    border: 5px solid black;
+    background-color: aliceblue;
 
+}
