@@ -1,5 +1,5 @@
 $(document).ready(function() {
-	const words = ["jotaro", "joseph", "josuke", "jonathan","joestar", "dio", "brando","johnny","Higashikata",]
+	const words = ["jotaro", "joseph", "josuke", "jonathan","joestar", "dio", "brando","johnny","higashikata",]
 	let word = words[Math.floor(Math.random() * words.length)];
     let guessA = [];
     let wordA = [];
