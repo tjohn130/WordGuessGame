@@ -62,3 +62,12 @@ body{
     background-color: aliceblue;
 
 }
+.lossbox{
+    font-size: 25pt;
+    font-family: 'Permanent Marker', cursive;
+    padding: 10px;
+    margin: 5px;
+    border: 5px solid red;
+    background-color: aliceblue;
+
+}

@@ -14,7 +14,8 @@ $(document).ready(function() {
 	document.addEventListener("keypress", (event) => {
 		let keycode = event.keyCode;
 		let keyWord = String.fromCharCode(keycode);
-		console.log(keyWord);
+        console.log(keyWord);
+        //Loads the Guessing Word
 		for (var i = 0; i < word.length; i++) {
             wordA[i] = word[i];
 			if (keyWord === null) {
@@ -25,6 +26,10 @@ $(document).ready(function() {
                         guessA[j] = keyWord;
                         console.log(guessA);
                         gameI[0].innerHTML = guessA.join('');
+                    }
+                    else if(word[j]=== keyWord){
+                        console.log("input is in correct")
+                        alert("try again")
                     }
 				}
 			}
